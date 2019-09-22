@@ -11,7 +11,7 @@ Setup
 1. Get this repository with follow command.
 
 ```
-$ git clone --recurcive https://github.com/AZO234/Arduino_berkeley-softfloat-3
+$ git clone --recurse-submodules https://github.com/AZO234/Arduino_berkeley-softfloat-3
 ```
 
 2. Run setup batch file in Arduino_berkeley-softfloat-3.
