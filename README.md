@@ -33,11 +33,19 @@ $ ./setup.sh
 Usage
 -----
 
-You can include 'softfloat.h' to your sketch 
+You can include 'softfloat.h' with extern C to your sketch 
 
 ```
+extern "C" {
 #include <softfloat.h>
+}
 ```
+
+Bug?
+----
+
+To convert integer to float64_t, Use ui64_to_f64().
+It seems to be an invalid value when using ui32_to_f64().
 
 Reference
 ---------
