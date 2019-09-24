@@ -41,11 +41,11 @@ extern "C" {
 }
 ```
 
-Bug?
-----
+Limitation
+----------
 
-To convert integer to float64_t, Use ui64_to_f64().
-It seems to be an invalid value when using ui32_to_f64().
+To convert integer to float, Use ui64_to_fxxx().
+It seems to be an invalid value when using ui32_to_fxxx(), ui16_to_fxxx().
 
 Reference
 ---------
